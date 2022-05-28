@@ -1,11 +1,8 @@
 extern crate markup5ever_rcdom as rcdom;
 extern crate xml5ever;
 
-use crate::io::BufReader;
 use std::collections::HashMap;
 use std::default::Default;
-use std::fs::File;
-use std::io;
 use std::string::String;
 
 use colors_transform::{Color as VColor, Rgb};
