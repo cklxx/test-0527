@@ -1,0 +1,18 @@
+[package]
+name = "test-0527"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# Cargo.toml
+
+[dependencies]
+stretch = "0.3.2"
+macroquad = { version = "0.3.16" }
+rand = "*"
+html5ever = "*"
+markup5ever_rcdom = "*"
+xml5ever = "*"
+parcel_css = "1.0.0-alpha.26"
+colors-transform = "0.2.5"
